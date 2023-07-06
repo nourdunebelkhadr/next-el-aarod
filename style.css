@@ -1,0 +1,47 @@
+body{
+    direction: rtl;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result {
+    width: 80%;
+    position: relative;
+    right: 20%;
+}
+.result1{
+    position: absolute;
+    right: 0;
+    width: 65%;
+}
+.result2{
+    position: absolute;
+    left: 0;
+    width: 65%;
+}
+textarea {  
+    width: 50%; /* تعيين العرض بنسبة مئوية 100% ليأخذ عرض العمود الواحد في الشبكة */
+    height: 40px;    
+    font-size: xx-large;
+    resize: none;
+    border: 1px solid greenyellow;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 60px;  
+    left: 620px;
+}
+button:hover{
+    background-color: green;
+    border-radius: 15px;
+}
+#container{
+    width: 400px;
+    height: 40px;
+    padding-top: 60px;
+   font-size: xx-large;
+}
